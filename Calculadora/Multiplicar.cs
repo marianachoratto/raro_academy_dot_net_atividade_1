@@ -1,3 +1,5 @@
+namespace Calculadora;
+
 public class Multiplicar
 {
     private const int MAX_DIGIT_BLOCK_SIZE = 9;
@@ -23,7 +25,7 @@ public class Multiplicar
 
     }
 
-    private static void KaratsubaFileBased(string pathNum1, string pathNum2, string pathResult)
+    public static void KaratsubaFileBased(string pathNum1, string pathNum2, string pathResult)
     {
         List<string> tempFilesToCleanUp = new List<string>();
         string currentCallId = Path.GetRandomFileName().Substring(0, 4);

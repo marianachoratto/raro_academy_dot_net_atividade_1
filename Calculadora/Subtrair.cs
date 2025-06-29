@@ -1,4 +1,4 @@
-using Calculadora;
+namespace Calculadora;
 
 public class Subtrair : OperacaoMatematica
 {

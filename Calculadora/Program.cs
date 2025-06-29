@@ -12,6 +12,8 @@ public class Program
 
         string resultadoFinal = @"C:\Users\maria\OneDrive\Desktop\Mariana\Programação\raro_e_dotnet\atividade1\resultadoFinal.txt";
 
+        string resultadoResto = @"C:\Users\maria\OneDrive\Desktop\Mariana\Programação\raro_e_dotnet\atividade1\resultadoResto.txt";
+
         int resultado;
 
         do
@@ -30,7 +32,7 @@ public class Program
 
         if (resultado == 3) Multiplicar.ExecutarMultiplicacaoDeArquivos(arquivo1, arquivo2, resultadoTemporario, resultadoFinal);
 
-        if (resultado == 4) Console.WriteLine("Desculpa, não deu tempo de terminar o exercício");
+        if (resultado == 4) Dividir.ExecutarDivisao(arquivo1, arquivo2, resultadoFinal, resultadoResto);
 
     }
 

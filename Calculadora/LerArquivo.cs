@@ -1,7 +1,6 @@
-using System;
+namespace Calculadora;
+
 using System.IO;
-using System.Text;
-using Calculadora;
 
 public class LerArquivo
 {

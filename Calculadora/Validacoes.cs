@@ -1,6 +1,7 @@
+namespace Calculadora;
+
 using System;
 
-namespace Calculadora;
 
 public class Validacoes
 {
